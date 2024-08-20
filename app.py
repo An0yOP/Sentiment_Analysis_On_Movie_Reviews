@@ -4,7 +4,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import pickle
 import nltk
-nltk.download('stopwords')
+#down = nltk.download('stopwords')
 
 app = Flask(__name__)
 
